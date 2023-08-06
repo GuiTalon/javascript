@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO</title>
+</head>
+<body>
+    <label for="nacionalidade">Digite sua nacionalidade: </label>
+    <input type="text" name="nac" id="nacionalidade">
+    <button onclick="calcular()">Verificar</button>
+    <p id="res"></p>
+    
+    
+    <script>
+    function calcular () {
+        var nacionalidade = document.getElementById('nacionalidade')
+        var res = document.getElementById('res')
+        if (nacionalidade.toLowerCase() === 'brassil') {
+            res.innerHTML = `Vivendo em ${nacionalidade}, você é brasileiro!`;  
+        } else {
+            res.innerHTML = `Vivendo em ${nacionalidade}, você é estrangeiro!`;
+        }
+    }
+
+    </script>
+</body>
+</html>
