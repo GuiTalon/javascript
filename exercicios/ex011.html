@@ -14,15 +14,14 @@
     
     <script>
     function calcular () {
-        var nacionalidade = document.getElementById('nacionalidade')
+        var nacionalidade = document.getElementById('nacionalidade').value;
         var res = document.getElementById('res')
-        if (nacionalidade.toLowerCase() === 'brassil') {
-            res.innerHTML = `Vivendo em ${nacionalidade}, você é brasileiro!`;  
+        if (nacionalidade.toLowerCase() === 'brasil') {
+            res.innerHTML = `Vivendo no ${nacionalidade}, você é <strong>BRASILEIRO!</strong>`;  
         } else {
-            res.innerHTML = `Vivendo em ${nacionalidade}, você é estrangeiro!`;
+            res.innerHTML = `Vivendo no ${nacionalidade}, você é <strong>ESTRANGEIRO!</strong>`;
         }
     }
-
     </script>
 </body>
 </html>
