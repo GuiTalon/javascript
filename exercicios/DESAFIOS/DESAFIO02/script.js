@@ -18,12 +18,16 @@ function verificar() {
             if (idade >=0 && idade < 10) {
                 // Criança
                 img.setAttribute('src', 'BEBE.jpg')
+                document.body.style.background = '#BFB1B0'
             } else if (idade < 21) {
                 img.setAttribute('src', 'JOVEM.jpg')
+                document.body.style.background = '#730202'
             } else if (idade < 50) {
                 img.setAttribute('src', 'VELHO.jpg')
+                document.body.style.background = '#404040'
             } else {
-                // I
+                img.setAttribute('src', 'veio.jpg')
+                document.body.style.background = '#9FA7BF'
             }
 
 
@@ -36,12 +40,16 @@ function verificar() {
             if (idade >=0 && idade < 10) {
                 // Criança
                 img.setAttribute('src', 'BEBEF.jpg')
+                document.body.style.background = '#F2C2CF'
             } else if (idade < 21) {
                 img.setAttribute('src', 'JOVEMF.jpg')
+                document.body.style.background = '#BF7892'
             } else if (idade < 50) {
                 img.setAttribute('src', 'VELHOF.jpg')
+                document.body.style.background = '#A6243C'
             } else {
-                // I
+                img.setAttribute('src', 'veia.jpg')
+                document.body.style.background = '#8C8C8C'
             }
         }
         res.style.textAlign = 'center'
