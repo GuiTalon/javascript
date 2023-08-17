@@ -4,5 +4,5 @@ function parimpar(n) {
     } else {
         return 'Ímpar!'
     }
-} let res = parimpar(4)
+} let res = parimpar(23)
 console.log(res)
