@@ -1,6 +1,7 @@
-let num = 10
+let num1 = 10
+let num2 = 5
 
-res = (!(num%2) ? "Par" : "ímpar") 
+res = (num1 > num2 ? "Verdadeiro" : "Falso") 
 
 console.log(res)
 
