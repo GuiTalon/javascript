@@ -1,10 +1,10 @@
-const V_P=23
 
-function soma(n1=V_P,n2=V_P){
-    let res
-    res=n1+n2
-    return res
+let valor=0
+
+console.log(valor)
+
+function add(v){
+    return valor+v
 }
-
-let resultado_soma=soma(5)
-console.log(resultado_soma)
+valor=add(10)
+console.log(valor)
