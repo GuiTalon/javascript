@@ -1,10 +1,14 @@
-function* cores (){
-    yield 'Vermelho'
-    yield 'Verde'
-    yield 'Azul'
+function* contator(){
+    let i=0
+    while(true){
+        yield i++
+        if(i>5)
+            break
+    }
 }
 
-const itc=cores()
-console.log(itc.next().value)
-console.log(itc.next().value)
-console.log(itc.next().value)
+const itc=contator()
+for(let c of itc){
+    console.log(c)
+}
+
