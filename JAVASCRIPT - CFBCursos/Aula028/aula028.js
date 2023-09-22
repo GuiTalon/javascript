@@ -1,2 +1,3 @@
-const cursos=['HTML', 'CSS', 'JAVASCRIPT', 'PHP', 'React']
-cursos.map(el)
+const el=document.getElementsByTagName("div")
+const val=Array.prototype.map.call(el, ({innerHTML})=>innerHTML)
+console.log()
