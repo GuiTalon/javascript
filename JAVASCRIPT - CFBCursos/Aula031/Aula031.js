@@ -7,4 +7,12 @@ const dc6=document.getElementById('c6')
 
 const arrayElementos=[dc1,dc2,dc3,dc4,dc5,dc6]
 
-const colecaoHTML=document.getElementsByTagName("div")
+
+let colecaoHTML=document.getElementsByTagName("div")
+colecaoHTML=[...colecaoHTML]
+
+console.log(colecaoHTML)
+
+colecaoHTML.map((e)=>{
+    console.log(e)
+})
