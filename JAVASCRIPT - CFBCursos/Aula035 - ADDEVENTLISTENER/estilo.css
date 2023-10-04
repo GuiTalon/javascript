@@ -11,6 +11,15 @@ main{
     width: 100%;
 }
 
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px; /* Ajuste as margens conforme necessário */
+    height: 100%;
+}
+
 button {
     width: 150px;
     height: 40px;
@@ -18,7 +27,9 @@ button {
     color: #fff;
     cursor: pointer;
     border-radius: 10px;
+    margin: 5px 0;
 }
+
 
 .curso {
     display: flex;
